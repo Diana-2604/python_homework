@@ -29,6 +29,15 @@
 # else:
 #     print('false')
 
+# TASK 2 SOLUTION MODIFIED
+
+for x in range(2):
+    for y in range(2):
+        for z in range(2):
+            print(not (x or y or z) == (not x and not y and not z))
+            print(x,y,z)
+
+
 # TASK3
 # Напишите программу, которая принимает на вход координаты точки (X и Y), причём X ≠ 0 и Y ≠ 0 
 # и выдаёт номер четверти плоскости, в которой находится эта точка (или на какой оси она находится).
@@ -85,11 +94,11 @@
 # - A (3,6); B (2,1) -> 5,09
 # - A (7,-5); B (1,-1) -> 7,21
 
-Ax = int(input('Ax: '))
-Ay = int(input('Ay: '))
+# Ax = int(input('Ax: '))
+# Ay = int(input('Ay: '))
 
-Bx = int(input('Bx: '))
-By = int(input('By: '))
+# Bx = int(input('Bx: '))
+# By = int(input('By: '))
 
-AB = ((Bx - Ax)**2 + (By - Ay)**2)**(0.5)
-print(round(AB,3))
+# AB = ((Bx - Ax)**2 + (By - Ay)**2)**(0.5)
+# print(round(AB,3))
