@@ -18,6 +18,11 @@
 
 # print(sum)
 
+# OR
+
+# my_list = [2, 3, 5, 9, 3]
+# print(sum(my_list[1::2])) # сумма элементов списка, начиная с 1-го, с шагом 2
+
 # TASK 2 
 
 # Напишите программу, которая найдёт произведение пар чисел списка. Парой считаем первый и последний элемент, второй и предпоследний и т.д.
@@ -90,17 +95,17 @@
 
 # - для k = 8 список будет выглядеть так: [-21 ,13, -8, 5, −3, 2, −1, 1, 0, 1, 1, 2, 3, 5, 8, 13, 21]
 
-num = int(input('Введите число членов последовательности Фибоначчи: '))
+# num = int(input('Введите число членов последовательности Фибоначчи: '))
 
-negafib = [1,-1]
-while len(negafib) < num:
-    negafib.append(negafib[-2] - negafib[-1])
-negafib.reverse()
+# negafib = [1,-1]
+# while len(negafib) < num:
+#     negafib.append(negafib[-2] - negafib[-1])
+# negafib.reverse()
 
-fib = [0,1]
-while len(fib) <= num:
-    fib.append(fib[-1] + fib[-2])
-print(negafib + fib)
+# fib = [0,1]
+# while len(fib) <= num:
+#     fib.append(fib[-1] + fib[-2])
+# print(negafib + fib)
 
 
 
