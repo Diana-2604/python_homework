@@ -1,0 +1,9 @@
+1,Martha,White,6B,4
+2,Ivy,Black,6B,3
+3,Megan,Green,8C,5
+4,Sherlock,Holmes,5A,5
+5,Ron,Weasley,5A,4
+6,Harry,Potter,5A,5
+7,Draco,Malfoy,8C,4
+9,Terry,Smith,8C,3
+8,Hermione,Granger,6B,5
